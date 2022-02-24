@@ -109,6 +109,7 @@ footer i:hover{color: #048A44;}
 .our-store i{padding-right: 4px;}
 .our-store:hover{background: #024321; color: #fff;}
 .header-appear{position: fixed; top: 0px; z-index: 111; width: 100%;}
+.ds-none{display: none;}
 
 @keyframes pulse-border {
     0% {
