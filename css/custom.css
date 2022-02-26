@@ -110,6 +110,20 @@ footer i:hover{color: #048A44;}
 .our-store:hover{background: #024321; color: #fff;}
 .header-appear{position: fixed; top: 0px; z-index: 111; width: 100%;}
 .ds-none{display: none;}
+.main-menu__back-link{font-size: 24px;}
+.main-menu-region nav .col-md-8{position: inherit;}
+.main-menu__deeper-link i{font-size: 20px;}
+.inner-heading{background: url(../images/inner-bgm.jpg) top; background-size: cover; color: #fff;}
+.inner-overlay{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color:#048A44; mix-blend-mode: hard-light;}
+.inner-title ol{list-style: none; margin-bottom: 0px;}
+.inner-title ol li{display: inline-block;}
+.inner-title ol i{padding: 0px 10px;}
+.inner-title ol li a:hover{text-decoration: underline;}
+.contact-icon{min-height: 196px; background: #fff; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 2%); padding: 20px; border-radius: 8px; text-align: center;
+margin-bottom: 30px; }
+.contact-icon h5{font-size: 18px; margin-bottom: 10px;}
+.contact-icon i{margin-bottom: 20px; font-size: 2rem; color: #048A44;}
+.contact-map{width: 100%; height: 350px; filter: grayscale(100%);}
 
 @keyframes pulse-border {
     0% {

@@ -73,8 +73,8 @@ jQuery(function ($) {
             992: {
                 items:3
             },
-            600: {
-                items: 1
+            800: {
+                items: 2
             },
             320: {
                 items: 1
@@ -100,8 +100,8 @@ jQuery(function ($) {
             992: {
                 items:4
             },
-            600: {
-                items: 1
+            800: {
+                items: 2
             },
             320: {
                 items: 1
