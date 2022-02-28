@@ -38,6 +38,10 @@
    footer h5{margin-top: 20px; margin-bottom: 10px;}
    .rs-textcenter{text-align: center !important;}
    .contact-icon{min-height: auto;}
+   .career-search{margin-top: 30px;}
+   .career-search .form-control{margin-bottom: 15px;}
+   .career-search .bt-secondary{width: 100%;}
+   .career-img{margin-top: 25px;}
     
 }
 
