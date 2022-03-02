@@ -18,7 +18,7 @@
    .ds-none{display: block;}
    .header-appear{background: #fff; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 3%); }
    .top-header{text-align: center;}
-   .top-header ul{margin-top: 10px;}
+   .top-header label{margin-top: 10px;}
    .top-header .text-right{text-align: center !important;}
    .header-wrapper.header-wrapper--expanded .ds-none{display: none;}
    .curve-overlay{display: none;}
@@ -27,6 +27,10 @@
    .our-solutions{border-radius: 0px; padding-top: 30px;}
    .our-solutions h2{margin-bottom: 20px;}
    .clients-logo {width: calc(100% / 3); padding: 20px;}
+   .whatsupp{top:117px ;}
+   .whats-top{top: 24px;}
+   .service-icon{position: relative; left: auto; top: auto; margin: 0 auto; margin-bottom: 20px;}
+   .service-box{padding: 20px; text-align: center; min-height: 256px;}
 }
 
 /* small mobile :767px. */
@@ -42,6 +46,8 @@
    .career-search .form-control{margin-bottom: 15px;}
    .career-search .bt-secondary{width: 100%;}
    .career-img{margin-top: 25px;}
+   .service-box{min-height: auto;}
+   section{padding: 30px 0px;}
     
 }
 
@@ -55,6 +61,7 @@
   .top-header ul li:first-child{display: none;}
   .owl-carousel .owl-prev{left: 0px;}
   .owl-carousel .owl-next{right: 0px;}
+  .whatsupp{top: auto; right: auto; left: 10px; bottom: 10px;}
 }
 
 @media (max-width: 380px) {

@@ -29,9 +29,11 @@ jQuery(function ($) {
     $(window).on('scroll', function () {
         if ($(this).scrollTop() >= 50) { // Set position from top to add class
             $('header').addClass('header-appear');
+            $('.whatsupp').addClass('whats-top');
         }
         else {
             $('header').removeClass('header-appear');
+            $('.whatsupp').removeClass('whats-top');
         }
     });
   
@@ -134,4 +136,25 @@ popupyoutube.length && $(".popup-youtube").magnificPopup({
         removalDelay: 160,
         preloader: !1,
         fixedContentPos: true
+    });
+
+    $(function () {
+        $(".residential").slice(0, 8).show();
+        $("#loadMore").on('click', function (e) {
+            e.preventDefault();
+            $(".residential:hidden").slice(0, 4).slideDown();
+            if ($(".residential:hidden").length == 0) {
+                $("#load").fadeOut('slow');
+                $('#loadMore').addClass('d-none');
+            }
+        });
+        $(".commercial-box").slice(0, 6).show();
+        $("#viewMore").on('click', function (e) {
+            e.preventDefault();
+            $(".commercial-box:hidden").slice(0, 3).slideDown();
+            if ($(".commercial-box:hidden").length == 0) {
+                $("#load").fadeOut('slow');
+                $('#viewMore').addClass('d-none');
+            }
+        });
     });

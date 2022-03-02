@@ -79,9 +79,10 @@ color: #048A44; text-align: center; line-height: 35px;  box-shadow: 0px 4px 10px
 .product-box button{background: #fff; border-radius: 30px; color: #048A44; border: none; font-weight: 700; min-width: 145px; height: 40px;
 box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 6%); margin-right: 5px;}
 .product-box button:hover{background: #048A44; color: #fff;}
-.whatsupp{ position: fixed; width: 35px; height: 35px; border-radius: 50%; left: 10px; bottom: 10px; font-size: 20px;
-    color: #fff; background: rgb(37, 211, 102); box-shadow: 1px 1px 4px rgb(60 60 60 / 40%); text-align: center; line-height: 35px; }
-.product-box .whatsupp{position: relative; left: auto; bottom: auto;}
+.whatsupp{ position: fixed; width: 45px; height: 45px; border-radius: 50%; right: 10px; top: 78px; font-size: 30px;
+    color: #fff; background: rgb(37, 211, 102); box-shadow: 1px 1px 4px rgb(60 60 60 / 40%); text-align: center; line-height: 45px; z-index: 1111; }
+.whats-top{top: 24px;}
+.product-box .whatsupp{position: relative; left: auto; bottom: auto; width: 35px; height: 35px; line-height: 35px; top: auto;  font-size: 20px; right: auto;}
 .enquiry-popup{width: 100%; max-width: 450px; padding: 20px; border-radius: 10px; background: #fff; position: relative;}
 .enquiry_close{position: absolute; top: 20px; right: 20px; width: 35px; height: 35px; border-radius: 50%; text-align: center;
 line-height: 35px; background: #f1f1f1;}
@@ -155,6 +156,21 @@ background: #fff; position: absolute; right: 10px; top: 8px; text-align: center;
 .career-details h5 span{color: #048A44;}
 .career-details label sup{color: red;}
 .career-details input[type='file']{height: 44px;}
+.top-header label{margin-bottom: 0px;}
+.service-box{min-height: 162px; padding: 30px; background: #fff; border-radius: 8px; box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 3%); margin-top: 30px; position: relative; padding-left: 130px;}
+.service-icon{position: absolute; left: 30px; top: 30px; background: rgba(4, 138, 69, 0.1); width: 70px; height: 70px; line-height: 70px; border-radius: 50%;
+text-align: center;}
+.service-icon img{height: 35px;}
+.service-box h5{font-size: 18px;}
+.line-1{width: 70px; height: 2px; background: #048A44; margin-bottom: 15px;}
+.solution .serve-box{margin-bottom: 30px; background: #fff;}
+.solution .serve-box-content h5{font-size: 16px;}
+.residential, .commercial-box{display: none;}
+.solution{background: rgba(4, 138, 69, 0.02);}
+.commercial-box .serve-box-content h5{font-size: 16px; line-height: 24px; color: #000; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; text-overflow: ellipsis; overflow: hidden; height: 48px;}
+.commercial-box .serve-box-content a{color: #048A44;}
+.commercial-box .serve-box-content a:hover{color: #000;}
+.commercial-box .serve-box{margin-bottom: 30px;}
 
 @keyframes pulse-border {
     0% {
