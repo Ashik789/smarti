@@ -60,7 +60,7 @@ jQuery(function ($) {
     $(".solution-carousel").owlCarousel({
         items: 3,
         margin: 30,
-        dots: true,
+        dots: false,
         nav: true,
         navText: [
             "<i class='fas fa-long-arrow-alt-left'></i>",
@@ -87,7 +87,7 @@ jQuery(function ($) {
     $(".serve-carousel").owlCarousel({
         items: 3,
         margin: 30,
-        dots: true,
+        dots: false,
         nav: true,
         navText: [
             "<i class='fas fa-long-arrow-alt-left'></i>",
@@ -109,6 +109,18 @@ jQuery(function ($) {
                 items: 1
             }
         }
+    });
+
+    $(".slider-carousel").owlCarousel({
+        items: 1,
+        margin: 30,
+        dots: true,
+        nav: false,
+        loop:true,
+        autoplay: true,
+        smartSpeed:500,
+        autoplayHoverPause:true,
+        responsiveClass:true,
     });
 
     
@@ -155,6 +167,15 @@ popupyoutube.length && $(".popup-youtube").magnificPopup({
             if ($(".commercial-box:hidden").length == 0) {
                 $("#load").fadeOut('slow');
                 $('#viewMore').addClass('d-none');
+            }
+        });
+        $(".industries").slice(0, 12).show();
+        $("#showMore").on('click', function (e) {
+            e.preventDefault();
+            $(".industries:hidden").slice(0, 3).slideDown();
+            if ($(".industries:hidden").length == 0) {
+                $("#load").fadeOut('slow');
+                $('#showMore').addClass('d-none');
             }
         });
     });

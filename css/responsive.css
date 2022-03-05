@@ -31,6 +31,12 @@
    .whats-top{top: 24px;}
    .service-icon{position: relative; left: auto; top: auto; margin: 0 auto; margin-bottom: 20px;}
    .service-box{padding: 20px; text-align: center; min-height: 256px;}
+   .slider-carousel img{height: 200px;}
+   .solution-title p{margin-bottom: 20px;}
+   .solution-title h5{margin-top: 25px;}
+   .related-solutions .serve-box{margin-bottom: 30px;}
+   .related-solutions h1{margin-bottom: 20px; font-size: 26px;}
+   .solution-image img{height: 250px;}
 }
 
 /* small mobile :767px. */
