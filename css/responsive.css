@@ -54,6 +54,9 @@
    .career-img{margin-top: 25px;}
    .service-box{min-height: auto;}
    section{padding: 30px 0px;}
+   .sticky{margin-bottom: 30px;}
+   .product-list .product-box{text-align: center;}
+   .product-details h5{margin-top: 20px;}
     
 }
 

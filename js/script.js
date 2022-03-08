@@ -123,6 +123,45 @@ jQuery(function ($) {
         responsiveClass:true,
     });
 
+    $(".product-carousel").owlCarousel({
+        items: 1,
+        margin: 0,
+        dots: false,
+        nav: false,
+        loop:true,
+        autoplay: true,
+        smartSpeed:500,
+        autoplayHoverPause:true,
+        responsiveClass:true,
+    });
+
+    $(".related-carousel").owlCarousel({
+        items: 3,
+        margin: 30,
+        dots: false,
+        nav: true,
+        navText: [
+            "<i class='fas fa-long-arrow-alt-left'></i>",
+            "<i class='fas fa-long-arrow-alt-right'></i>"
+        ],
+        loop:true,
+        autoplay: true,
+        smartSpeed:500,
+        autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive: {
+            992: {
+                items:4
+            },
+            800: {
+                items: 2
+            },
+            320: {
+                items: 1
+            }
+        }
+    });
+
     
 
 });

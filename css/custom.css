@@ -81,7 +81,7 @@ color: #048A44; text-align: center; line-height: 35px;  box-shadow: 0px 4px 10px
 box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 6%); margin-right: 5px;}
 .product-box button:hover{background: #048A44; color: #fff;}
 .whatsupp{ position: fixed; width: 45px; height: 45px; border-radius: 50%; right: 10px; top: 78px; font-size: 30px;
-    color: #fff; background: rgb(37, 211, 102); box-shadow: 1px 1px 4px rgb(60 60 60 / 40%); text-align: center; line-height: 45px; z-index: 1111; }
+    color: #fff; background: rgb(37, 211, 102); box-shadow: 1px 1px 4px rgb(60 60 60 / 40%); text-align: center; line-height: 45px; z-index: 121; }
 .whats-top{top: 24px;}
 .product-box .whatsupp{position: relative; left: auto; bottom: auto; width: 35px; height: 35px; line-height: 35px; top: auto;  font-size: 20px; right: auto;}
 .enquiry-popup{width: 100%; max-width: 450px; padding: 20px; border-radius: 10px; background: #fff; position: relative;}
@@ -198,6 +198,40 @@ transform: translate(-50%, -50%); text-align: center; width: 90%; transition: al
 .industries-box:hover .industries-overlay h5{top: 50%;}
 .industries-box:hover img{mix-blend-mode: hard-light;}
 .industries{display: none;}
+.product-list{overflow: visible;}
+.product-list .panel-title>a, .product-list .panel-title>a:active{ letter-spacing: 0px; background: none; color: #000; padding:15px 10px; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd;}
+.product-list .panel-heading a:before{background: none; top: 8px;}
+.product-list .panel-default{border: none; border-radius: 0px; margin-bottom: 0px;}
+.product-list .panel-group{border: 1px solid #ddd; border-radius: 5px;}
+.product-list .panel-body{padding: 15px;}
+.product-list .panel-body label{display: block; font-size: 14px; line-height: 24px; position: relative; cursor: pointer; padding-left: 25px;}
+.product-list .panel-body  input {padding: 0;height: initial;width: initial;margin-bottom: 0;display: none;cursor: pointer;}
+.product-list .panel-body label:before {content:'';-webkit-appearance: none;background-color: transparent;border: 1px solid #048A44;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+padding: 8px; display: inline-block; position: relative; vertical-align: middle; cursor: pointer; margin-right: 5px; position: absolute; left: 0px; top: 3px;}
+.product-list .panel-body  input:checked +  label:after {content: ''; display: block; position: absolute; top: 4px; left: 6px; width: 6px;
+ height: 14px; border: solid #048A44; border-width: 0 2px 2px 0; transform: rotate(45deg);}
+.product-list .product-box{box-shadow: 0px 4px 10px 4px rgb(0 0 0 / 2%); border-radius: 4px; text-align: left;padding: 14px; margin-bottom: 30px;}
+.product-list .product-box h5{font-size: 15px; margin-bottom: 5px;}
+.product-list .product-box a{color: #048A44;}
+.product-list .product-box a i{padding-left: 5px; transition: all 0.3s ease-in-out;}
+.product-list .product-box a:hover{color: #024321;}
+.product-list .product-box a:hover i{padding-left: 15px;}
+.sticky{position: sticky; top: 100px;}
+.breadcrumbs{padding: 10px 0px; color: #5A6671;}
+.breadcrumbs li{list-style: none; display: inline-block;}
+.breadcrumbs i{margin: 0px 5px;}
+.breadcrumbs li a:hover{color: #048A44; text-decoration: underline;}
+.product-carousel{border: 1px solid #ddd;}
+.product-details .owl-carousel .owl-stage-outer{padding-bottom: 0px;}
+.product-carousel img{height: 300px; object-fit: cover; overflow: hidden;}
+.product-details h5{font-size: 16px; color: #048A44;}
+.ratings .rating-box { display: inline-block;}
+.product-details .rating-box{width: 60px; height: 10px; font-size: 0; line-height: 0; background: url(../images/bkg_rating.png) 0 0 repeat-x; text-indent: -999em; overflow: hidden;}
+.rating-box .rating { float: left; height: 9px; background: url(../images/bkg_rating.png) 0 100% repeat-x;}
+.short-description{margin-top: 20px;}
+.short-description ul li{position: relative; padding-left: 25px;}
+.short-description ul li::before{position: absolute; left: 0px; color: #048A44; font-weight: 400; content: "\f0a4"; font-family: "Font Awesome 5 Free";}
+.product-details .solution-title{padding: 30px 15px;}
 
 @keyframes pulse-border {
     0% {
